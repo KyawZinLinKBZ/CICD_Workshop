@@ -9,6 +9,7 @@ import * as ecsPatterns from 'aws-cdk-lib/aws-ecs-patterns';
 
 interface ConsumerProps extends StackProps {
   ecrRepository: ecr.Repository,
+  
 }
 
 export class AppCdkStack extends Stack {
